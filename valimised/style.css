@@ -1,0 +1,155 @@
+.navigation-menu ul {
+    padding: 0px;
+    margin: 0px;
+}
+ul {
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+    list-style-type:none;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color:crimson;
+}
+#navigation ul
+{
+    font-size: 1.5em;
+}
+h1{
+    color:crimson;
+}
+/* unvisited link */
+a:link {
+    color: crimson;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: white;
+}
+body{
+    background-color: ivory;
+}
+table{
+    border: 1px;
+}
+
+.valimised{
+    width:80%;
+    margin-bottom: 20px;
+    //border: 15px solid #faec65;
+    //border-top: 5px solid #faec65;
+    border-collapse: collapse;
+
+}
+.valimised th {
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+    padding: 5px;
+    background: crimson;
+    border: none;
+    border-bottom: 5px solid crimson;
+}
+/*.valimised td {
+    padding: 5px;
+    border: none;
+    border-bottom: 5px solid crimson;
+    border-radius: 20px;
+}*/
+
+.haldus{
+    width: 60%;
+    font-size: 14px;
+    text-align: left;
+    border-collapse: collapse;
+    border-radius: 20px;
+    box-shadow: 0 0 0 10px #F2906B;
+    color: #452F21;
+}
+.haldus th {
+    border: 0px;
+    padding: 10px 8px;
+    background: white;
+}
+.haldus th:first-child {
+    //border: 0px;
+    border-top-left-radius: 20px;
+}
+.haldus th:last-child {
+    //border: 0px;
+    border-top-right-radius: 20px;
+}
+.haldus td {
+    //border: 0px;
+    border-top: 10px solid #F2906B;
+    padding: 8px;
+    background: white;
+}
+.haldus td:first-child {
+    //border: 0px;
+    border-bottom-left-radius: 20px;
+}
+.haldus td:last-child {
+    //border: 0px;
+    border-bottom-right-radius: 20px;
+}
+.ava, .null, .kustuta, .knull{
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.ava:active, .null:active, .kustuta:active, .knull:active{
+    background-color: #F2906B;
+}
+.ava:hover, .null:hover, .kustuta:hover, .knull:hover{
+    background-color: #F2906B;
+}
+.punkt{
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    border-radius: 20px;
+}
+.punkt:hover, .punkt:active{
+    background-color: crimson;
+    border-radius: 20px;
+}
+
+input[type=submit]{
+    /* remove default behavior */
+    appearance: none;
+    -webkit-appearance: none;
+    /* usual styles */
+    padding: 10px;
+    border: none;
+    background-color: #2a2d3e;
+    color: #fff;
+    border-radius: 10px;
+}
+input[type=submit]:hover{
+    background-color: crimson;
+    color: #fff9e7;
+}
+
+input[type=text] {
+    background-color: #fae2cc;
+    padding: 10px;
+    margin: 5px;
+    border: 0;
+    border-radius: 10px;
+}
+input[type=text]:hover {
+    background-color: #f6d2b1;
+}
